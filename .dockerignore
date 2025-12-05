@@ -1,0 +1,13 @@
+# --- .dockerignore ---
+# Ignore Python build/cache files
+__pycache__/
+*.pyc
+.venv/
+.mypy_cache/
+
+# Ignore MLflow artifacts (they are mounted, not built into the image)
+mlruns/
+
+# Ignore large/local files that should not be in the image
+*.pth
+*.pt

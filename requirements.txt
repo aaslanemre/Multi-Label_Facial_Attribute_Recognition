@@ -1,0 +1,23 @@
+# --- requirements.txt ---
+
+# CORE MACHINE LEARNING LIBRARIES (PyTorch Ecosystem)
+torch
+torchvision
+torchaudio
+
+# DATA PROCESSING AND UTILITIES
+pandas
+numpy
+Pillow
+tqdm
+
+# EXPERIMENT TRACKING
+mlflow
+
+# HUGGING FACE ECOSYSTEM (Data Loading)
+datasets
+transformers # Good practice to include
+
+# METRICS AND EVALUATION
+scikit-learn    # CRITICAL for calculating multi-label metrics (mAP, F1-score, etc.)
+matplotlib
