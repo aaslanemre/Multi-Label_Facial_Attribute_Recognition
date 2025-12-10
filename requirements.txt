@@ -13,6 +13,7 @@ tqdm
 
 # EXPERIMENT TRACKING
 mlflow
+tensorboard
 
 # HUGGING FACE ECOSYSTEM (Data Loading)
 datasets
