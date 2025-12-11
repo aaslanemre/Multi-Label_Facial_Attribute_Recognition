@@ -14,4 +14,22 @@ Our approach utilizes **Transfer Learning** on a pre-trained Convolutional Neura
 | **Dataset** | CelebA (Celebrity Faces Attributes) | Over 200k images with 40 binary attribute annotations. |
 | **Metrics** | F1-Score (per attribute), Mean Average Precision (mAP) | Key metrics for multi-label task evaluation. |
 
+2. Install Dependencies
+Install all required Python packages:
 
+
+pip install -r requirements.txt
+
+3. Setup Weights & Biases (W&B) Tracking
+We use W&B for experiment tracking and visualization. Initialize and log in to your account:
+
+
+wandb init
+wandb login
+
+
+Run Training
+Execute the main script to start the two-stage training process:
+
+
+python main.py
