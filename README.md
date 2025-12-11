@@ -17,3 +17,5 @@ Our approach utilizes **Transfer Learning** on a pre-trained Convolutional Neura
 pip install -r requirements.txt
 
 
+StageActionLearning Rate (lr)FREEZE_BASE_LAYERS1. Frozen BaselineTrain only the final output layer.$10^{-3}$$\text{True}$2. Full Fine-TuningRefine all layers of the network.$10^{-5}$$\text{False}$
+
