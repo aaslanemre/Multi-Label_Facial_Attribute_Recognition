@@ -14,8 +14,4 @@ Our approach utilizes **Transfer Learning** on a pre-trained Convolutional Neura
 | **Dataset** | CelebA (Celebrity Faces Attributes) | Over 200k images with 40 binary attribute annotations. |
 | **Metrics** | F1-Score (per attribute), Mean Average Precision (mAP) | Key metrics for multi-label task evaluation. |
 
-pip install -r requirements.txt
-
-
-StageActionLearning Rate (lr)FREEZE_BASE_LAYERS1. Frozen BaselineTrain only the final output layer.$10^{-3}$$\text{True}$2. Full Fine-TuningRefine all layers of the network.$10^{-5}$$\text{False}$
 
